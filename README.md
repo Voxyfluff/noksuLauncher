@@ -7,4 +7,6 @@ launcher program made for Noksuna.
 4. check the checkboxes next to the programs that should be launched
 5. hit Launch Selected
 
-since v2 you can add more program slots by opening the config file and editing the "indexes" property. it has been proven that everything between 5 and 20 works, everything else bugs the UI.
+since update v2 you can add more program slots by opening the config file and editing the "indexes" property. it has been proven that everything between 5 and 20 works, everything else bugs the UI.
+
+note: windows might throw an error about the application not being verified. thats because I do not have $250 to spend every year just for that popup to not pop up. if that warning scares you into not using the program: the source code is public in this repository, go read that and see if you find anything malicious.

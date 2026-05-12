@@ -1,7 +1,7 @@
 # noksuLauncher
 launcher program made for Noksuna.
 
-1. download the newest .exe file from the [Releases](https://github.com/vox-arys/noksuLauncher/releases) and save in a new folder
+1. download the newest .exe file from the [Releases](https://github.com/voxyfluff/noksuLauncher/releases) and save in a new folder
 2. run the .exe file
 3. add the wanted programs by pressings the Browse button, or enter a steam rungame link (eg. steam://rungameid/620 for portal 2)
 4. check the checkboxes next to the programs that should be launched
@@ -11,4 +11,6 @@ since update v2 you can add more program slots by opening the config file and ed
 
 note: windows might throw an error about the application not being verified. thats because I do not have $250 to spend every year just for that popup to not pop up. if that warning scares you into not using the program: the source code is public in this repository, go read that and see if you find anything malicious.
 
-please note that you cannot launch my [twitch bot](https://github.com/voxyavali/VoxyAvaliBot) with this launcher. it just doesnt open. I have no clue why, but it might have something to do with the way the launcher starts programs. I promise to look into it soon-ish
+# knowm problems
+- when launching steam apps via steam://rungameid/{appid} with arguments it shows up as "Steam App --{arg}" (example: steam://rungameid/438100/--no-vr shows up as Steam App --no-vr instead of VRChat)
+- errors out trying to remove a temporary directory after closing the launcher

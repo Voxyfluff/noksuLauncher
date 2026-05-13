@@ -10,6 +10,6 @@ since update v2 you can add more program slots by opening the config file and ed
 
 note: windows might throw an error about the application not being verified. thats because I do not have $250 to spend every year just for that popup to not pop up. if that warning scares you into not using the program: the source code is public in this repository, go read that and see if you find anything malicious.
 
-# knowm problems
+# known problems
 - when launching steam apps via steam://rungameid/{appid} with arguments it shows up as "Steam App --{arg}" (example: steam://rungameid/438100/--no-vr shows up as Steam App --no-vr instead of VRChat)
 - errors out trying to remove a temporary directory after closing the launcher
